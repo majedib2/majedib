@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.10.3/bootstrap-icons.css">
+    <style>
+        #nav{
+            position: relative ;
+            width: 100%;
+            z-index: 1;
+        }
+        span{
+        font-size: large;
+        }
+        .divcontact{
+            width: 100%;
+            padding: 1%;
+        }
+        button{
+            margin-left: 70%;
+            
+        }
+        .container{
+          
+            width: 60%;
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 20%;
+            background-color: rgb(250, 250, 250);
+            border: 2px solid gray;
+            border-radius: 20px;
+        }
+ .divcontact:hover{
+    background-color: rgb(233, 231, 231);
+    border: 1px solid ghostwhite;
+     border-radius: 7px;
+ }       
+ .divcontact{
+    width: 100%;
+ }    
+ li a:hover {
+    border-bottom: 2px solid gainsboro;
+    
+}
+li a{
+    font-size: large;
+color: antiquewhite;
+}
+#nav{
+            width: 100%;
+            border: 1px solid;
+            border-radius: 13px;
+            position: relative;
+            top: -11px;
+            border: 3px solid white;  
+       
+        }
+        h1 span{
+            font-size: xx-large;
+    transition: 4s;
+}
+#fati:hover {
+    color: bisque;
+    text-shadow: 0,0,10px white,
+              0,0,20px white,
+            0,0,60px white;
+        
+          margin-right: 20px; 
+          
+}
+h1:hover #wadi::after{
+    content: "-";
+}
+.a{
+    position: relative;
+}
+.a>span{
+    display: inline-block;
+    animation: swapWords 2s infinite;
+}
+@keyframes swapWords {
+    0%,100%{
+        opacity: 1;
+        position: static;
+    }
+    25%,75%{
+        opacity: 0;
+        position: absolute;
+    }
+}
+    </style>
+</head>
+<body class="bg">
+
+   <!-- C'est La Partie De Nav -->
+   <header class="bg-warning p-4">
+    <h1><span id="w" style="font-size: 60px;color: darkkhaki;"><i>W</i></span>adi-<span style="color:darkkhaki;font-size: larger;"><i>F</i></span>ati</h1>
+</header>
+
+<nav class="navbar-expand-sm bg-dark p-3" id="nav">
+    <ul class="navbar-nav">
+<li class="nav-item"><a href="pagehome.html" class="nav-link text-light" >Home</a></li>
+<li class="nav-item"><a href="pagejobs.html" class="nav-link text-light">Services</a></li>
+<li class="nav-item"><a href="pageAbout.html" class="nav-link text-light">About Us</a></li>
+<li class="nav-item"><a href="pagecontact.html" class="nav-link text-light">Contact</a></li>
+</ul>
+</nav>
+    </nav>
+     
+    <h1 class="a" style="text-shadow: 3px 3px black;margin-left: 35%; color: goldenrod;">
+        Welcome To <span> Our </span> Site
+   </h1>
+<!-- C,est La Partie De Contacts  -->
+    <div class="container"> 
+       <div class="divcontact "><i class="bi bi-facebook "><span> Facebook :</span></i>
+         &nbsp;&nbsp;
+       <span>Wadifati</span><br>
+        <button class="btn btn-warning h-2">Go To</button>
+       </div>
+<br><br>
+
+       <div class="divcontact">
+        <i class="bi bi-instagram "><span> Instagram</span></i> &nbsp;&nbsp;
+        Wadifati <br>
+        <button class="btn btn-warning ">Go To</button>
+       </div> 
+       <br><br>
+
+       <div class="divcontact">
+        <i class="bi bi-email "> <span>Email :</span></h4></i> &nbsp;&nbsp;
+        Wadifati.1@gmail.com <br>
+        <button class="btn btn-warning ">Go To</button>
+       </div>
+       <br><br>
+
+       <div class="divcontact">
+        <i class="bi bi-google "><span> Web Site  :</span></i> &nbsp;&nbsp;
+        https://www.Wadifati.com <br>
+        <button class="btn btn-warning ">Go To</button>
+       </div>
+
+       <br><br>
+       <div class="divcontact">
+        <i class="bi bi-telephone "><span>Our Number :</span> </i> &nbsp;&nbsp;
+        0565873322 <br>
+        <button class="btn btn-warning ">Go To</button>
+       </div>
+
+       <br><br>
+       <div class="divcontact">
+        <i class="bi bi-twitter"><span>Twitter :</span> </i> &nbsp;&nbsp;
+        Wadifati <br>
+        <button class="btn btn-warning ">Go To</button>
+       </div>
+
+
+    </div>
+</body>
+</html>
